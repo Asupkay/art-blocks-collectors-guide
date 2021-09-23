@@ -1,5 +1,6 @@
 import {empyreanFeatures} from './empyreanFeatureScript';
 import {enchiridionFeatures} from './enchiridionFeatureScript';
+import {democracityFeatures} from './democracityFeatureScript';
 
 export const projectMap = {
   33: {
@@ -52,11 +53,27 @@ export const projectMap = {
       961,
       973
     ]
+  },
+  162: {
+    featureScript: democracityFeatures,
+    features: {
+      "City Style": ["Traditional", "Short", "Tall", "Center City", "Agridustrial", "Crater", "Monolith", "Chaos", "Pete Repeat"],
+      "Color Scheme": ["OFF(BLACK + WHITE)","REEF","BRICK","DOLPHIN","OAXACA","WHO ATE THE CRANS?","MOSS AGATE","FIREWATER","BRINKMAN","TOMATO","THE PINK ONE","DROPDOWN"],
+      "Color Cohesion": ["Random", "High", "Normal", "Mono", "Mixed"],
+      "Pedestal": ["Square", "Pyramid", "Stage"],
+      "Lighting": ["Afternoon", "Sunrise", "Sunset", "Flat", "Night"],
+      "Weather": ["Clear Skies","Partly Cloudy w. Acid Rain","Partly Cloudy w. Precipitation","Partly Cloudy","Mostly Cloudy w. Acid Rain","Mostly Cloudy w. Precipitation","Mostly Cloudy","Overcast w. Precipitation","Thunderstorm (Acid Rain)","Thunderstorm","Overcast & Acid Rain","Overcast w. Precipitation,Overcast"],
+      "Fog": ["Yes", "No"],
+      "Cloud Type": ["Centered", "Square", "Ring", "Ring/Square"],
+      "Ground Coverage": ["None", "Snow", "Frozen Flood", "Flood"]
+    },
+    printedPieces: []
   }
 }
 
 export const urlToProjectId = {
   "empyrean": 33,
-  "enchiridion": 101
+  "enchiridion": 101,
+  "democracity": 162
 }
 
