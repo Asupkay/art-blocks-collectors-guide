@@ -64,7 +64,7 @@ export const projectMap = {
       "Lighting": ["Afternoon", "Sunrise", "Sunset", "Flat", "Night"],
       "Weather": ["Clear Skies","Partly Cloudy w. Acid Rain","Partly Cloudy w. Precipitation","Partly Cloudy","Mostly Cloudy w. Acid Rain","Mostly Cloudy w. Precipitation","Mostly Cloudy","Overcast w. Precipitation","Thunderstorm (Acid Rain)","Thunderstorm","Overcast & Acid Rain","Overcast w. Precipitation,Overcast"],
       "Fog": ["Yes", "No"],
-      "Cloud Type": ["Centered", "Square", "Ring", "Ring/Square"],
+      "Cloud Type": ["None", "Centered", "Square", "Ring", "Ring/Square"],
       "Ground Coverage": ["None", "Snow", "Frozen Flood", "Flood"]
     },
     printedPieces: []
